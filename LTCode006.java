@@ -23,7 +23,7 @@ public class LTCode006 {
             }
             System.out.println();
     
-            int[] nums2 = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
+            int[] nums2 = {0,0,1,1,2,2,3,3,4};
             int k2 = removeDuplicates(nums2);
             System.out.println("Unique Count: " + k2);
             for (int i = 0; i < k2; i++) {
